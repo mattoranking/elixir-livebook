@@ -1,2 +1,2 @@
-# elixir-notebooks
+# elixir-livebooks
 My Experiments with Elixir
