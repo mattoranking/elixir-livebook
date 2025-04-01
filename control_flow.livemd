@@ -32,7 +32,7 @@ post1 = %Post{id: 1, title: "Title No 1", author: "Julius Caesar"}
 ```elixir
 case post1 do
   %{author: "Mattoranking"} -> "Got a post from Mattoranking"
-  %{author: "Joy Adekola"} -> "Got a post from Joy Adekola"
+  %{author: "Morpheus"} -> "Got a post from Morpheus"
   _ -> "Got a post from #{post1.author}"
 end
 ```
@@ -45,7 +45,7 @@ post1
 ```elixir
 case post1 do
   %{author: "Mattoranking"} -> "Got a post from Mattoranking"
-  %{author: "Joy Adekola"} -> "Got a post from Joy Adekola"
+  %{author: "Morpheus"} -> "Got a post from Morpheus"
   _ -> "Got a post from #{post1.author}"
 end
 ```
@@ -55,7 +55,7 @@ end
 ```elixir
 cond do
   post1.author == "Mattoranking" -> "Editing a post from Mattoranking"
-  post1.author == "Joy Adekola" -> "Editing a post from Joy Adekola"
+  post1.author == "Morpheus" -> "Editing a post from Morpheus"
   true -> "This is a catch all"
 end
 ```
